@@ -3,13 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Basic HTML Structure</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="main.css">
 </head>
 
+
+<header>
+
+</header>
 <body>
-<h1>Hello! Welcome</h1>
-<p>Welcome to pages!</p>
+    <img src="images/logo_notitle.png" width="150" alt="Logo of ReCapture">
+    <br>
+<!--Entry for username and password-->
+<div id="homepage">
+<form action="/submit" method="post"> 
+
+    <label for="username">Username</label> 
+    <br>
+    <input type="text" id="username" name="username" placeholder="Enter your username">
+
+    <br>
+    <br>
+
+    <label for="password">Password</label>
+    <br>
+    <input type="password" id="pasword" name="password" placeholder="Enter your password">
+</form>
+</div>
 </body>
+
 </html>
 
