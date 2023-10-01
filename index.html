@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="main.css">
 </head>
 
-
 <header>
 
 </header>
@@ -16,7 +15,8 @@
     <br>
 <!--Entry for username and password-->
 <div id="homepage">
-<form action="/submit" method="post"> 
+    <!--I made the submit button send user to home page since the submit button itself does not work-->
+<form action="homepage.html" method="post"> 
 
     <label for="username">Username</label> 
     <br>
@@ -28,8 +28,14 @@
     <label for="password">Password</label>
     <br>
     <input type="password" id="pasword" name="password" placeholder="Enter your password">
+
+    <br>
+    <input type="submit" value="Log in">
 </form>
 </div>
+
+<br>
+<a href="signup.html">Sign up</a>
 </body>
 
 </html>
