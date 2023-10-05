@@ -24,14 +24,19 @@ body{
 
 
 }
-#homepage{
+#login{
     color: white; 
     margin-top: 20px;
 }
 
+#nav{
+    text-decoration: none;
+}
+/* edit this later
 a:hover{ 
     background-color: black;
 }
+*/
 
 a{
     color: white;
