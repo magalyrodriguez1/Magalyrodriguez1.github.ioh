@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create a Post</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+
+     <!--For going back to previous page-->
+    <form>
+        <input type="button" value="Return to previous page" onclick="history.back()">
+    </form>
+    <br> 
+    
+<!--uploading a picture-->
+<form action="fileupload.php" enctype="multipart/form-data" method="post"><label class="custom-uploader" 
+for="file">Upload Your File</label> <input id="file" accept="image/jpeg,image/gif,image/png,application/pdf,image/x-eps" 
+name="fileToUpload" type="file" /> 
+<br>
+<button class="btn btn-success" name="submit" type="submit"> Upload File </button>
+
+</form>
+
+</body>
+
+</html>
