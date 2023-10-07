@@ -127,3 +127,64 @@ a{
 #notifs h2{
     text-align: left;
 }
+
+#msg_user{
+    width: 500px;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    text-align: right;
+}
+
+#msg{
+    width: 500px;
+    margin: auto;
+    background-color: darkgray;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#msg_username{
+    width: 500px;
+    margin: auto;
+    border: 3px solid antiquewhite;
+    border-radius: 25px;
+}
+
+#message_1{
+    width: 500px;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 15px;
+   
+}
+
+#message_1 h2{
+    text-align: left;
+}
+
+#message_2{
+    width: 500px;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 15px;
+   
+}
+
+#message_3{
+    width: 500px;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 15px;
+   
+}
+
+#home_images{
+    width: 500px;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+#home_images h2{
+    text-align: left;
+}
