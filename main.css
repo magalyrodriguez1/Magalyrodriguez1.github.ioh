@@ -61,7 +61,7 @@ a{
     width: 500px;
     margin: auto;
     background-color: antiquewhite;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 #somebody14 h3, p, a{
@@ -71,6 +71,10 @@ a{
 
 #somebody14 span{
     font-size:x-large
+}
+
+#somebody14 h2{
+    text-align: left;
 }
 
 #somebody14post{
@@ -98,7 +102,11 @@ a{
     width: 500px;
     margin: auto;
     background-color: antiquewhite;
-    border-radius: 25px;
+    border-radius: 15px;
+}
+
+#profile h2{
+    text-align: left;
 }
 
 #posts{
@@ -106,4 +114,16 @@ a{
     margin: auto;
     border: 3px solid antiquewhite;
     border-radius: 25px;
+}
+
+#notifs{
+    width: 500px;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    
+}
+
+#notifs h2{
+    text-align: left;
 }
