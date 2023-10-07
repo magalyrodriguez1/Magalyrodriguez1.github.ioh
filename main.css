@@ -80,7 +80,7 @@ a{
     border-radius: 25px;
 }
 
-#search{
+#searchbar{
     width: 500px;
     margin: auto;
     border: 3px solid antiquewhite;
@@ -91,5 +91,19 @@ a{
     width: 500px;
     margin: auto;
     background-color: antiquewhite;
+    border-radius: 25px;
+}
+
+#profile{
+    width: 500px;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 25px;
+}
+
+#posts{
+    width: 500px;
+    margin: auto;
+    border: 3px solid antiquewhite;
     border-radius: 25px;
 }
