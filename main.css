@@ -12,9 +12,7 @@ p{
     background-color: antiquewhite;
 }
 */
-h2{
-    color: white;
-}
+
 body{
     background-color: #528265;
     text-align: center;
@@ -22,15 +20,19 @@ body{
     font-size: 25px;
     margin-top: 25px;
 
-
 }
+
 #login{
     color: white; 
     margin-top: 20px;
 }
 
-#nav{
-    text-decoration: none;
+.nav{
+     width: 500px;
+    margin: auto;
+    border: 3px solid antiquewhite;
+    border-radius: 25px;
+     
 }
 /* edit this later
 a:hover{ 
@@ -39,6 +41,55 @@ a:hover{
 */
 
 a{
-    color: white;
     text-decoration: none;
+}
+
+#homepage{
+
+    width: 500px;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 25px;
+   
+}
+
+#homepage h2{
+    color: black;
+}
+
+#somebody14{
+    width: 500px;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 25px;
+}
+
+#somebody14 h3, p, a{
+    text-align: center;
+    text-decoration: none;
+}
+
+#somebody14 span{
+    font-size:x-large
+}
+
+#somebody14post{
+    width: 500px;
+    margin: auto;
+    border: 3px solid antiquewhite;
+    border-radius: 25px;
+}
+
+#search{
+    width: 500px;
+    margin: auto;
+    border: 3px solid antiquewhite;
+    border-radius: 25px;
+}
+
+#community{
+    width: 500px;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 25px;
 }
