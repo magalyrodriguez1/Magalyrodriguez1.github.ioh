@@ -3,36 +3,38 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="logo_notitle.png">
 </head>
 
 <body>
     <img src="images/logo_notitle.png" width="150" alt="Logo of ReCapture">
     <br>
 <!--Entry for username and password-->
-<div id="login">
+    <div id="login">
     <!--I made the submit button send user to home page since the submit button itself does not work-->
-<form action="homepage.html" method="post"> 
+        <form action="homepage.html" method="post"> 
 
-    <label for="username">Username</label> 
-    <br>
-    <input type="text" id="username" name="username" placeholder="Enter your username">
+            <label for="username">Username</label> 
+            <br>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+
+            <br>
+            <br>
+
+            <label for="password">Password</label>
+            <br>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+
+            <br>
+            <a href="homepage.html">Log in</a>
+        </form>
+    </div>
 
     <br>
-    <br>
-
-    <label for="password">Password</label>
-    <br>
-    <input type="password" id="password" name="password" placeholder="Enter your password">
-
-    <br>
-    <a href="homepage.html">Log in</a>
-</form>
-</div>
-
-<br>
-<a href="signup.html">Sign up</a>
+    <a href="signup.html">Sign up</a>
 </body>
 
 </html>

@@ -3,28 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create a Post</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="logo_notitle.png">
 </head>
 
 
 <body>
 
      <!--For going back to previous page-->
-    <form>
-        <input type="button" value="Return to previous page" onclick="history.back()">
-    </form>
+    <input type="button" value="Return to previous page" onclick="history.back()">
     <br> 
     
 <!--uploading a picture; resourced from web because I did not know the code for it-->
-<form action="fileupload.html" enctype="multipart/form-data" method="post"><label class="custom-uploader" 
-for="file">Upload Your File</label> <input id="file" accept="image/jpeg,image/png" 
-name="fileToUpload" type="file" /> 
-<br>
-<button class="btn btn-success" name="submit" type="submit"> Upload File </button>
-
-</form>
-
+    <form action="fileupload.html" enctype="multipart/form-data" method="post"><label class="custom-uploader" 
+        for="file">Upload Your File</label> <input id="file" accept="image/jpeg,image/png" 
+        name="fileToUpload" type="file" /> 
+        <br>
+        <button class="btn btn-success" name="submit" type="submit"> Upload File </button>
+    </form>
 </body>
-
 </html>

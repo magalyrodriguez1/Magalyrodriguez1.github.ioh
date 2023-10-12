@@ -34,11 +34,11 @@ body{
     border-radius: 25px;
      
 }
-/* edit this later
+
 a:hover{ 
-    background-color: black;
+    background-color: grey;
 }
-*/
+
 
 a{
     text-decoration: none;
@@ -187,4 +187,9 @@ a{
 }
 #home_images h2{
     text-align: left;
+}
+
+ul
+{
+list-style-type: none;
 }

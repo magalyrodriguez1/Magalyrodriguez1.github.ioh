@@ -3,56 +3,56 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up Page</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="logo_notitle.png">
 </head>
 
 <body>
     <img src="images/logo_no_bg.png" width="300" alt="logo with ReCapture name">
-
 
     <div id="homepage">
 
         <h2>Join us today!</h2>
         
         <!--I made the sign up button send user to home page since the submit button itself does not work-->
-    <form action="homepage.html" method="post"> 
+        <form action="homepage.html" method="post"> 
     
-        <label for="username">Username</label> 
+            <label for="username">Username</label> 
         <br>
-        <input type="text" id="username" name="username" placeholder="Enter your username">
+            <input type="text" id="username" name="username" placeholder="Enter your username">
         <br>
         <br>
-        <label for="email">Email</label>
+            <label for="email">Email</label>
 
         <br>
-        <input type="text" id="email" name="email" placeholder="Enter your email">
+            <input type="text" id="email" name="email" placeholder="Enter your email">
         <br>
         <br>
     
-        <label for="password">Password</label>
+            <label for="password">Password</label>
         <br>
-        <input type="password" id="password" name="password" placeholder="Enter your password">
+            <input type="password" id="password" name="password" placeholder="Enter your password">
         
         <br>
         <br>
-        <label for="birthdate">Birth Date:</label>
+            <label for="birthdate">Birth Date:</label>
         <br>
-        <input type="date" id="birthdate" name="birthdate">
+            <input type="date" id="birthdate" name="birthdate">
 
         <br>
-        <a href="homepage.html">Sign up</a>
+            <a href="homepage.html">Sign up</a>
         <br>
 
-        <label for="subscribe">Subscribe to our newsletter</label>
-        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to our newsletter</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
 
-    </form>
+        </form>
     </div>
     
     <!--For going back to previous page-->
-    <form>
-        <input type="button" value="Back to login" onclick="history.back()">
-       </form>
+    <input type="button" value="Back to login" onclick="history.back()">
+
 </body>
 </html>
